@@ -29,7 +29,7 @@ and the website: https://www.fail2ban.org
 Installation:
 -------------
 
-Fail2Ban is likely already packaged for your Linux distribution and [can be installed with a simple command](https://github.com/fail2ban/fail2ban/wiki/How-to-install-fail2ban-packages).
+Fail2Ban is likely already packaged for your Linux distribution or MacOS for my purpose and [can be installed with a simple command](https://github.com/fail2ban/fail2ban/wiki/How-to-install-fail2ban-packages).
 
 If your distribution is not listed, you can install from GitHub:
 
