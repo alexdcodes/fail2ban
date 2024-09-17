@@ -50,7 +50,7 @@ To install:
 
     tar xvfj fail2ban-master.tar.bz2
     cd fail2ban-master
-    sudo python setup.py install
+    sudo python3 setup.py install
    
 Alternatively, you can clone the source from GitHub to a directory of your choice, and do the install from there. Pick the correct branch, for example, master or 0.11
 
@@ -70,7 +70,7 @@ to see if everything is alright. You should always use fail2ban-client and
 never call fail2ban-server directly.
 You can verify that you have the correct version installed with 
 
-    fail2ban-client version
+    python3 fail2ban-client version
 
 Please note that the system init/service script is not automatically installed.
 To enable fail2ban as an automatic service, simply copy the script for your
