@@ -56,14 +56,15 @@ Alternatively, you can clone the source from GitHub to a directory of your choic
 
     git clone https://github.com/fail2ban/fail2ban.git
     cd fail2ban
-    sudo python setup.py install 
+    sudo python3 setup.py install
+    #sudo python setup.py install 
     
 This will install Fail2Ban into the python library directory. The executable
 scripts are placed into `/usr/bin`, and configuration in `/etc/fail2ban`.
 
 Fail2Ban should be correctly installed now. Just type:
 
-    fail2ban-client -h
+    python3 fail2ban-client -h
 
 to see if everything is alright. You should always use fail2ban-client and
 never call fail2ban-server directly.
